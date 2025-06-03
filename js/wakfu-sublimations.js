@@ -61,7 +61,7 @@ $(document).ready(function () {
                 const nivelMax = efeitosInfo.lvlmax !== 'N/A' ? efeitosInfo.lvlmax : '-';
 
                 $("#tabledata").append(`
-<tr class="bg-gray-700">
+<tr class="bg-gray-700/80">
     <td class="tdborder">${nome.replace(' I', '')}</td>
     <td class="tdborder">${I}</td>
     <td class="tdborder">${II}</td>
